@@ -1,0 +1,6 @@
+opencv-python
+tensorflow
+ultralytics
+numpy
+sqlite3
+flask
