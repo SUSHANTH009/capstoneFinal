@@ -63,7 +63,7 @@ public class DistanceCalculatorService {
             JSONObject element = (JSONObject) ja.get(i);
             JSONObject distanceElement = (JSONObject) element.get("distance");
             long distance = (long) distanceElement.get("value");
-            if (distance < 100) {
+            if (distance < 1) {
                 return "Pothole Ahead";
             } 
         }
